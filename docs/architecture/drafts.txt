@@ -1,0 +1,43 @@
+USER
+	: Adicionar observação
+
+		. Número do observação (automático)
+		. Detalhes do animal
+			. Foto
+			. Espécie: Pyronia cecilia
+			. Nome comum: Cecília / Southern Gatekeeper
+			. Família: Nymphalidae
+			. Sexo: Indeterminado
+			. Fase: Adulto (imago)
+		. Detalhes local
+			. Local: Terraço
+			. Planta visitada: [nome da planta]
+			. Hora: [hora da observação]
+			. Condições: [sol / nublado / vento...]
+		. Identificação (caractreristicas que ajudem a distinguir a espécie)
+		. Comportamento observado
+		. Ciclo de vida
+		. Curiosidades
+			. Importancia para o ecossistema
+			. Qual o motivo de estar ali presente
+			. Entre outras
+		. Grau de confiança da identificação (% aproximada)
+
+	: Consultar observação
+		. pesquisa por nome comum/ científico
+		. poderá ter algum botão com editar/apagar/exportar...
+		. filtrar observações (ordenar...)
+	
+	: Pesquisa por imagem ( verificar se existe algum registo que corresponda, dentro de uma certa probabilidade, aquela imagem)
+
+FRONTEND
+
+	: Random observação (alguns detalhes de um animal aleatótrio)
+	: Info com --> Perto desta data foram observados estas espécies (2 ou 3)
+	: Info com a ultima espécie adicionada/editada
+	: Ambas infos têm "link" com ver detalhes
+	: botoes necessários para uma interface moderna e simples
+
+BACKEND
+	:
+
